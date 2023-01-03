@@ -1,0 +1,15 @@
+.itemcart img
+{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.card{
+    padding: 20px;
+    margin: 50px;
+}
+.itemcart img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}

@@ -1,0 +1,104 @@
+.banner{
+    background-image: url('../../../assets/img/laundry3.jpg');
+    height: 1000px;
+
+    background-position: center top;
+    background-size: cover;
+}
+.content
+{
+    top :30%;
+    left :20%;
+    position: absolute;
+}
+
+
+.content h1
+ {
+    color:rgb(255, 255, 255);
+    font-size : 60px ;
+    font-weight:bold ;
+    
+}
+.content a
+{
+    text-decoration: none;
+    background-color:rgb(35, 147, 252) ;
+    color:black;
+    padding: 15px 20px ;
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+
+.content a:hover
+{
+    background-color:var(--primary-color) ;
+    color: #fff;
+}
+
+.stepBox
+{
+    background-color: rgb(35, 147, 252);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stepBox h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(126, 249, 255);
+}
+
+.stepBox p
+{
+    font-size: 20px;
+    font-style: oblique;
+    color: #fff;
+}
+
+.highlight
+{
+    color: var(--primary-color);
+    font-weight:bold;
+}
+
+.clothbox
+{
+    padding: 10px 5px;
+}
+
+.clothbox img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.clothbox h1
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.clothbox p
+{
+    text-align: center;
+}
+
+.viewmorebtn
+{
+    text-decoration: none;
+    background-color:rgb(35, 147, 252);;
+    color:white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+
+
+
+}

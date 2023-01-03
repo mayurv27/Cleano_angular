@@ -1,0 +1,41 @@
+{
+    "products" : [
+    {
+      
+      "title": "shirt",
+      "price": "7",
+      "image": "https://image.shutterstock.com/image-photo/square-blue-shirt-white-background-600w-1033291492.jpg"
+    },
+    {
+      
+      "title": "pants",
+      "price": "6",
+      "image": "https://image.shutterstock.com/image-photo/fashion-style-concept-chino-pants-600w-1411806560.jpg"
+    },
+    {
+      
+      "title": "saree",
+      "price": "10",
+      "image": "https://cdn-icons-png.flaticon.com/512/4170/4170885.png"
+    },
+    {
+      
+      "title": "blazer",
+      "price": "12",
+      "image": "https://cdn.vectorstock.com/i/1000x1000/62/69/mans-green-jacket-icon-cartoon-style-vector-9786269.webp"
+    },
+    {
+      
+      "title": "bed-sheets",
+      "price": "8",
+      "image": "https://image.shutterstock.com/image-photo/stack-clean-bed-linen-isolated-600w-1903195453.jpg"
+    },
+    {
+    
+      "title": "towel",
+      "price": "6",
+      "image": "https://cdn.vectorstock.com/i/1000x1000/25/51/blue-towel-on-hanger-icon-cartoon-style-vector-32252551.webp"
+    }
+  ]
+   
+}

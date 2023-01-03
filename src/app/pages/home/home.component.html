@@ -1,0 +1,50 @@
+<div class="banner">
+    <div class="content ">
+        <h1 class="mb-5"> Get Freshly Washed Clothes<br>at your door</h1>
+        <a routerLink="/menu">Book Service <i class="bi bi-arrow-right"></i></a>
+
+    </div>
+</div>
+<!--step-->
+<div class="container mb-5 mb-5">
+    <h1 class="text-center">How to get <span class="highlight">Laundy Done</span></h1>
+    <div class="row mt-5">
+        <!-- One -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>1</h1>
+                <p>Select Service</p>
+            </div>
+        </div>
+        <!-- Two -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>2</h1>
+                <p>Feel the details</p>
+            </div>
+        </div>
+        <!-- Three -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>3</h1>
+                <p>Your service is on the way</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--clothBox-->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center mt-3">Customer's <span class="highlight">First choice</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of ClothData;index as i">
+            <div class="clothbox" *ngIf="i <=3">
+                <img src="{{fd.clothImg}}"/>
+                <h1> {{fd.clothName}}</h1>
+                <h1>{{fd.clothPrice}}</h1>
+                <h1> {{fd.clothDetails}}</h1>
+            </div>
+        </div>
+    </div>
+    <a routerLink="/menu" class="viewmorebtn" >View More <i class="bi bi-arrow-right"></i></a>
+</div>

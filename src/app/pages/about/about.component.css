@@ -1,0 +1,28 @@
+.banner2{
+    background-color: #c8e8e9;
+    height: 1000px;
+
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.laundry
+{
+    padding-top: 200px;
+}
+
+.laundry2
+{
+    padding-top: 60px;
+    color: var(--primary-color);
+    font-weight:bold;
+    font-style: italic;
+}
+
+
+.highlight
+{
+    color: var(--primary-color);
+    font-weight:bold;
+}
